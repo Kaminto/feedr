@@ -9,7 +9,6 @@ import { AccountPage } from '../pages/account/account';
 import { FeedingPage } from "../pages/feeding/feeding";
 import { SecurityPage } from "../pages/security/security";
 import { SettingPage } from "../pages/setting/setting";
-
 import { BluetoothCheckgPage } from "../pages/bluetoothCheck/bluetoothCheck";
 
 

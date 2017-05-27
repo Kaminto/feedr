@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { FeedingSchedulePage } from "../feedingSchedule/feedingSchedule";
-import { PastFeedPage } from "../pastFeed/pastFeed";
-import { FeedNowPage } from "../feedNow/feedNow";
 import { BluetoothSerial } from '@ionic-native/bluetooth-serial';
 
 @Component({
