@@ -32,7 +32,7 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Feeding', component: FeedingPage },
      
-      { title: 'Security Ligts', component: SecurityPage },
+      { title: 'Security Lights', component: SecurityPage },
       { title: 'Setting', component: SettingPage },
       { title: 'Sign Out', component: AccountPage },
       { title: 'About', component: AboutPage },
