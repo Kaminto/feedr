@@ -1,0 +1,24 @@
+{
+  "name": "feedrapi",
+  "version": "1.0.0",
+  "description": "Remote Fish feeding tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "node",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaminto/feedr.git"
+  },
+  "keywords": [
+    "Fish",
+    "Feeding"
+  ],
+  "author": "Kaamuli Anthony Eriya (kaminto)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaminto/feedr/issues"
+  },
+  "homepage": "https://github.com/Kaminto/feedr#readme"
+}
