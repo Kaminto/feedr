@@ -14,9 +14,11 @@ import { SignupPage } from "../pages/signup/signup";
 import { FeedingSchedulePage } from "../pages/feedingSchedule/feedingSchedule";
 import { FeedingPage } from "../pages/feeding/feeding";
 import { SecurityPage } from "../pages/security/security";
-
 import { FeedNowPage } from "../pages/feedNow/feedNow";
-import { PostFeedPage } from "../pages/postFeed/postFeed";
+import { PastFeedPage } from "../pages/pastFeed/pastFeed";
+import { SettingPage } from "../pages/setting/setting";
+import { AboutPage } from '../pages/about/about';
+import { BluetoothCheckgPage } from "../pages/bluetoothCheck/bluetoothCheck";
 
 @NgModule({
   declarations: [
@@ -29,8 +31,10 @@ import { PostFeedPage } from "../pages/postFeed/postFeed";
     FeedingPage,
     FeedingSchedulePage,
     FeedNowPage,
-    PostFeedPage
-
+    PastFeedPage,
+    SettingPage,
+    AboutPage,
+    BluetoothCheckgPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,10 @@ import { PostFeedPage } from "../pages/postFeed/postFeed";
     FeedingPage,
     FeedingSchedulePage,
     FeedNowPage,
-    PostFeedPage
+    PastFeedPage,
+    SettingPage,
+    AboutPage,
+    BluetoothCheckgPage
   ],
   providers: [
     StatusBar,

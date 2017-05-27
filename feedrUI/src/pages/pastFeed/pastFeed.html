@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Feeding Schedule</ion-title>
+    <ion-title>Past Feeding</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -12,45 +12,24 @@
 
 <ion-grid>
  <ion-item>
-                  <ion-label for="email" floating>Select Date</ion-label>
+                  <ion-label for="email" floating>Select Past Date</ion-label>
                  <!--ion-datetime displayFormat="h:mm A" [(ngModel)]="departureVenueTime" name="departureVenueTime"  pickerFormat="h mm A" ></ion-datetime-->
                 <!--ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="departureVenueTime"  pickerFormat="dd/m/y"></ion-datetime-->
                 <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="departureVenueTime"></ion-datetime>
                 </ion-item>
 
 
-                <ion-item>
-                  <ion-label for="email" floating>Select Time</ion-label>
-                 <ion-datetime displayFormat="h:mm A" [(ngModel)]="departureVenueTime" name="departureVenueTime"  pickerFormat="h mm A" ></ion-datetime>
-                
-                
-                </ion-item>
-
-
-
-
-
-
-
 <ion-list>
 
 
 
-  <ion-item>
-    <ion-label>Select Feed</ion-label>
-    <ion-select [(ngModel)]="feedType">
-       
-      <ion-option value="Proteins">Proteins</ion-option>
-      <ion-option value="Magnessium">Magnessium</ion-option>
-      
-    </ion-select>
-  </ion-item>
+ 
 </ion-list>
 
 </ion-grid>
  
 
-   <button ion-button block type="submit" >Submit</button>
+   <button ion-button block type="submit" >Check Past Feeds</button>
  
   <!--h3>Ionic Menu Starter</h3>
 

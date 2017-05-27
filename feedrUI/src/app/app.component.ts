@@ -4,11 +4,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { AboutPage } from '../pages/about/about';
 import { AccountPage } from '../pages/account/account';
 import { FeedingPage } from "../pages/feeding/feeding";
 import { SecurityPage } from "../pages/security/security";
-//import { FeedingSchedulePage } from "../pages/feedingSchedule/feedingSchedule";
+import { SettingPage } from "../pages/setting/setting";
+
+import { BluetoothCheckgPage } from "../pages/bluetoothCheck/bluetoothCheck";
+
+
 
 @Component({
   templateUrl: 'app.html'
@@ -27,11 +31,12 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Feeding', component: FeedingPage },
-      { title: 'Schedule', component: ListPage },
-      { title: 'Security', component: SecurityPage },
-      { title: 'Setting', component: ListPage },
-      { title: 'Sign In', component: AccountPage },
-      { title: 'About', component: ListPage },
+     
+      { title: 'Security Ligts', component: SecurityPage },
+      { title: 'Setting', component: SettingPage },
+      { title: 'Sign Out', component: AccountPage },
+      { title: 'About', component: AboutPage },
+      { title: 'Check BlueTooth', component: BluetoothCheckgPage }
 
     ];
 

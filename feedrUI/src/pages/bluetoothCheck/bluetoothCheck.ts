@@ -5,10 +5,10 @@ import { PastFeedPage } from "../pastFeed/pastFeed";
 import { FeedNowPage } from "../feedNow/feedNow";
 
 @Component({
-  selector: 'page-feeding',
-  templateUrl: 'feeding.html'
+  selector: 'page-bluetoothCheck',
+  templateUrl: 'bluetoothCheck.html'
 })
-export class FeedingPage {
+export class BluetoothCheckgPage {
 
 feedingSchedulePage: any;
 pastFeedPage: any;
