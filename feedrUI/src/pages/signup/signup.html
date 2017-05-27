@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Signup</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-list>
+          <form >
+             
+            <ion-row>
+              <ion-col no-padding>
+                <ion-item>
+                  <ion-label for="username" floating>Username</ion-label>
+                  <ion-input type="text" [(ngModel)]="username" name="username" id="username" ></ion-input>
+                </ion-item>
+               
+                <ion-item>
+                  <ion-label for="email" floating>Email</ion-label>
+                  <ion-input type="email" [(ngModel)]="email"  name="email" id="email"></ion-input>
+                </ion-item>
+               
+                <ion-item>
+                  <ion-label for="password" floating>Password</ion-label>
+                  <ion-input type="password" [(ngModel)]="password" name="password" id="password" ></ion-input>
+                </ion-item>
+             
+               
+               
+
+
+             
+                <br/>
+                <button ion-button (click)="register()" block type="submit">Sign Up</button>
+                <br/>
+                <div class="form-links">
+                  Already have an account? <a navPop>Log in</a>
+                </div>
+              </ion-col>
+            </ion-row>
+          </form>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
