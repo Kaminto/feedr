@@ -12,11 +12,10 @@
 
  <h3>Bluetooth Check</h3>
  
-  <!--h3>Ionic Menu Starter</h3>
-
+ <button ion-button (click)="checkBlueTooth()">check bluetooth</button>
+  <button ion-button *ngIf="enable_button" (click)="toggleBlueTooth()">toggle bluetooth</button>
+  <button ion-button (click)="show_settings()">show settings</button>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p-->
-
-  <!--button ion-button secondary menuToggle>Toggle Menu</button-->
+    {{msg}}
+  </p>
 </ion-content>
