@@ -11,9 +11,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Auth } from '../providers/auth';
 import { RestApi } from '../providers/restApi';
 import { SignupPage } from "../pages/signup/signup";
-//import { FeedingSchedulePage } from "../pages/feedingSchedule/feedingSchedule";
+import { FeedingSchedulePage } from "../pages/feedingSchedule/feedingSchedule";
 import { FeedingPage } from "../pages/feeding/feeding";
 import { SecurityPage } from "../pages/security/security";
+
+import { FeedNowPage } from "../pages/feedNow/feedNow";
+import { PostFeedPage } from "../pages/postFeed/postFeed";
 
 @NgModule({
   declarations: [
@@ -23,8 +26,11 @@ import { SecurityPage } from "../pages/security/security";
     AccountPage,
     SignupPage,
     SecurityPage,
-    FeedingPage
-   // FeedingSchedulePage
+    FeedingPage,
+    FeedingSchedulePage,
+    FeedNowPage,
+    PostFeedPage
+
   ],
   imports: [
     BrowserModule,
@@ -37,9 +43,11 @@ import { SecurityPage } from "../pages/security/security";
     ListPage,
     AccountPage,
     SignupPage ,
-     SecurityPage,
-    FeedingPage
-    //FeedingSchedulePage
+    SecurityPage,
+    FeedingPage,
+    FeedingSchedulePage,
+    FeedNowPage,
+    PostFeedPage
   ],
   providers: [
     StatusBar,

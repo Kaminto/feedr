@@ -1,0 +1,52 @@
+<ion-label for="username" floating>Feed Now</ion-label>
+
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Feed Now</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+   <ion-label for="username" >Feed Time</ion-label>     
+<ion-list>
+  <ion-item>
+    <ion-label>Feed Time</ion-label>
+    <ion-select [(ngModel)]="feedTime">
+      <ion-option value="">Select Feed Time</ion-option>
+      <ion-option value="40">40 Secs</ion-option>
+      <ion-option value="50">50 Secs</ion-option>
+      <ion-option value="1">1 Min</ion-option>
+     </ion-select>
+  </ion-item>
+</ion-list>
+
+ <ion-label for="username" >Feed Type</ion-label>     
+<ion-list>
+  <ion-item>
+    <ion-label>Feed Type</ion-label>
+    <ion-select [(ngModel)]="feedType">
+      <ion-option value="">Select Feed Type</ion-option>
+      <ion-option value="Proteins">Proteins</ion-option>
+      <ion-option value="Magnessium">Magnessium</ion-option>
+      
+    </ion-select>
+  </ion-item>
+</ion-list>
+
+
+  <button ion-button block type="submit" >Submit</button>
+ 
+ 
+  <!--h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p-->
+
+  <!--button ion-button secondary menuToggle>Toggle Menu</button-->
+</ion-content>
