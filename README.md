@@ -10,4 +10,4 @@ Side Menu > <a href = "https://github.com/Kaminto/feedr/blob/master/feedrUI/src/
 
 ![Side Menu](sidemenu.PNG "Side Menu")
 
-![Side Menu](schedule.png "Schedule")
+![Schedule](schedule.png "Schedule")
