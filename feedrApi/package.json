@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Kaminto/feedr/issues"
   },
-  "homepage": "https://github.com/Kaminto/feedr#readme"
+  "homepage": "https://github.com/Kaminto/feedr#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
 }
