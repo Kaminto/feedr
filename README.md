@@ -4,6 +4,6 @@ Remote Fish feeding tool to easily feed fish and monitor schedule and amounts fo
 - We are also using Intel XDK to develop some UI Components that we can later integrate with the main files in Ionic
 
 
-ScreenShots > <a href = "https://github.com/Kaminto/feedr/blob/master/feedrUI/src/app/app.component.ts" target="_blank">Code</a>
+ScreenShots > <a href = "https://github.com/Kaminto/feedr/blob/master/feedrUI/src/app/app.component.ts">Code</a>
 
 ![Side Menu](sidemenu.PNG "Side Menu")
