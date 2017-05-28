@@ -9,3 +9,5 @@ Fish farming is a highly lucrative business in Uganda today however fish are qui
 Side Menu > <a href = "https://github.com/Kaminto/feedr/blob/master/feedrUI/src/app/app.component.ts">Code</a>
 
 ![Side Menu](sidemenu.PNG "Side Menu")
+
+![Side Menu](schedule.png "Schedule")
