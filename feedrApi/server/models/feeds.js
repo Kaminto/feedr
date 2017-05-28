@@ -9,7 +9,7 @@ var config = require('../config/config')[env];
 
 exports.saveFeeds=function(req,res,next){
 var userData =req.body;
-
+console.log(userData);
 
 
   
