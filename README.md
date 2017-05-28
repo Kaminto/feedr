@@ -5,6 +5,7 @@ Fish farming is a highly lucrative business in Uganda today however fish are qui
 - We also use an RTC module , Bluetooth module, Relay switch
 - We are also using Intel XDK to develop some UI Components that we can later integrate with the main files in Ionic
 - Ionic2 support / Angular2 / Reactive / ExpressJS
+
 Side Menu > <a href = "https://github.com/Kaminto/feedr/blob/master/feedrUI/src/app/app.component.ts">Code</a>
 
 ![Side Menu](sidemenu.PNG "Side Menu")
